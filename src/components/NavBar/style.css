@@ -1,0 +1,29 @@
+.item-nav {
+  font-size: 14pt !important;
+  color: #424242;
+  font-size: 23px;
+  transition: 0.3s;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 0 !important;
+}
+
+.navbar-light .navbar-toggler {
+  border-color: transparent !important;
+}
+
+.img-nav {
+  max-width: 80px;
+  margin-right: 40px;
+}
+
+@media (max-width: 576px) {
+  .pd-nav {
+    padding: 0 30px;
+  }
+
+  .link-register {
+    display: none;
+  }
+}

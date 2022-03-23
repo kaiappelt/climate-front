@@ -1,0 +1,26 @@
+.custom-main {
+  margin: 100px 0;
+}
+
+.img-home {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.text-home {
+  justify-content: center;
+}
+
+.text-home p {
+  margin: 20px 0 50px 0 !important;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+@media (max-width: 576px) {
+  .text-home {
+    padding: 30px;
+  }
+}

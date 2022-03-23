@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;1,300;1,700&family=Montserrat:ital,wght@0,500;0,700;0,800;0,900;1,400;1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.text-logo {
+  color: #82df6c;
+  font-family: "Aleo", sans-serif;
+  font-size: 25pt;
+  font-weight: 900;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #58d13d;
+  border-radius: 20px;
+}
+
+/* Firefox */
+body {
+  scrollbar-width: 10px;
+  scrollbar-color: #58d13d #fff;
+}

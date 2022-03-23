@@ -1,0 +1,29 @@
+.card-form {
+  padding: 10px;
+  color: rgb(103, 105, 107);
+}
+
+.card-form .btn-handle-insert {
+  width: 100%;
+  margin-top: 15px;
+  background-color: #81c784;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.card-form .btn-handle-insert:hover {
+  background-color: #7fa714;
+  color: #fff;
+}
+
+.img-none {
+  display: block;
+}
+
+@media (max-width: 576px) {
+  .card-form {
+    padding: 30px;
+  }
+}
